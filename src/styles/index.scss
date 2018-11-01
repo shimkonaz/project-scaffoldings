@@ -1,0 +1,23 @@
+@import './base.scss';
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, red, green, blue, yellow);
+  box-shadow: 0 2px 5px grey;
+  @include flex(center, center, row);
+}
+
+
+footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  box-shadow: -1px 0 5px grey;
+  @include flex(space-around, center, row);
+}
